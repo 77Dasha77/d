@@ -10,6 +10,7 @@ body, html {
   background-size: cover;
   background-position: center;
   position: relative; /* Для позиционирования дочерних элементов */
+  transform: rotate(90deg);
 }
 
 .image-button1 {
@@ -56,6 +57,9 @@ body, html {
     width: 360px;
     height: 640px;
     background-image: url("город_тел\ \(2\).png"); /* Фон для десктопной версии */
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Для позиционирования дочерних элементов */
   }
 
   .image-button1 {

@@ -54,7 +54,6 @@ body, html {
 @media (max-width: 361px) {
   .container {
     background-image: url("город_тел\ \(2\).png"); /* Фон для десктопной версии */
-    transform: rotate(90deg);
   }
 
   .image-button1 {

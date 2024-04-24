@@ -106,40 +106,40 @@ body, html {
   .image-button1 {
     margin: 0;
     position: absolute;
-    top: 20%;
-    right: -10%;
-    transform: scale(0.5);
+    top: 15%;
+    right: 43%;
+    transform: scale(1.1);
   }
   
   .image-button2 {
     margin: 0;
     position: absolute;
-    top: 32%;
-    right: 55%;
-    transform: scale(0.5);
+    top: 73%;
+    right: 47%;
+    transform: scale(1.1);
   }
   
   .image-button3 {
     margin: 0;
     position: absolute;
-    top: 56%;
-    right: -5%;
-    transform: scale(0.5);
+    top: 25%;
+    right: -1%;
+    transform: scale(1.1);
   }
   
   .image-button4 {
     margin: 0;
     position: absolute;
-    top: 49%;
+    top: 42%;
     right: 25%;
-    transform: scale(0.5);
+    transform: scale(1.1);
   }
   
   .image-button5 {
     margin: 0;
     position: absolute;
-    top: -3%;
-    left: -1%;
-    transform: scaleX(-1) scale(0.5);
+    top: -1%;
+    left: -347%;
+    transform: scaleX(-1) scale(0.6);
   }
 }

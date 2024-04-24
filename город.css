@@ -51,53 +51,95 @@ body, html {
   right: 20px;
 }
 
-@media (max-width: 400px) {
-  .container {
-    width: 100%;
-    height: 100%;
-    background-image: url("город_тел.png"); /* Фон для десктопной версии */
-    background-size: cover;
-    background-position: center;
-    position: relative; /* Для позиционирования дочерних элементов */
-  }
-
+@media (max-width: 1000px) {
   .image-button1 {
     margin: 0;
     position: absolute;
-    top: 25%;
-    right: -10%;
-    transform: rotate(90deg) scale(0.6);
+    top: 15%;
+    right: 43%;
+    transform: scale(1.1);
   }
   
   .image-button2 {
     margin: 0;
     position: absolute;
-    top: 32%;
-    right: 55%;
-    transform: rotate(90deg) scale(0.6);
+    top: 73%;
+    right: 47%;
+    transform: scale(1.1);
   }
   
   .image-button3 {
     margin: 0;
     position: absolute;
-    top: 56%;
-    right: -5%;
-    transform: rotate(90deg) scale(0.6);
+    top: 24%;
+    right: -1%;
+    transform: scale(1.1);
   }
   
   .image-button4 {
     margin: 0;
     position: absolute;
-    top: 49%;
+    top: 42%;
     right: 25%;
-    transform: rotate(90deg) scale(0.6);
+    transform: scale(1.1);
   }
   
   .image-button5 {
     margin: 0;
     position: absolute;
-    top: -3%;
-    right: -1%;
-    transform: rotate(30deg) scale(0.6);
+    top: -1%;
+    left: -347%;
+    transform: scaleX(-1) scale(0.6);
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      width: 100%;
+      height: 100%;
+      background-image: url("город_тел.png"); /* Фон для десктопной версии */
+      background-size: cover;
+      background-position: center;
+      position: relative; /* Для позиционирования дочерних элементов */
+    }
+  
+    .image-button1 {
+      margin: 0;
+      position: absolute;
+      top: 25%;
+      right: -10%;
+      transform: rotate(90deg) scale(0.6);
+    }
+    
+    .image-button2 {
+      margin: 0;
+      position: absolute;
+      top: 32%;
+      right: 55%;
+      transform: rotate(90deg) scale(0.6);
+    }
+    
+    .image-button3 {
+      margin: 0;
+      position: absolute;
+      top: 56%;
+      right: -5%;
+      transform: rotate(90deg) scale(0.6);
+    }
+    
+    .image-button4 {
+      margin: 0;
+      position: absolute;
+      top: 49%;
+      right: 25%;
+      transform: rotate(90deg) scale(0.6);
+    }
+    
+    .image-button5 {
+      margin: 0;
+      position: absolute;
+      top: -3%;
+      right: -1%;
+      transform: rotate(30deg) scale(0.6);
+    }
   }
 }

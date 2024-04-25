@@ -78,10 +78,11 @@ body, html {
   }
   
   .image-button3 {
+    background-image: url("уник2.png");
     margin: 0;
     position: absolute;
     top: 25%;
-    right: 0%;
+    right: 1%;
     transform: scale(1.1);
   }
   

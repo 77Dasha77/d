@@ -64,33 +64,33 @@ body, html {
   .image-button1 {
     margin: 0;
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 43%;
-    transform: scale(1.0);
+    transform: scale(1.1);
   }
   
   .image-button2 {
     margin: 0;
     position: absolute;
-    top: 70%;
-    right: 45%;
-    transform: scale(1.0);
+    top: 73%;
+    right: 46%;
+    transform: scale(1.1);
   }
   
   .image-button3 {
     margin: 0;
     position: absolute;
-    top: 21%;
-    right: 7%;
-    transform: scale(1.0);
+    top: 25%;
+    right: 0%;
+    transform: scale(1.1);
   }
   
   .image-button4 {
     margin: 0;
     position: absolute;
-    top: 41%;
-    right: 28%;
-    transform: scale(0.9);
+    top: 42%;
+    right: 25%;
+    transform: scale(1.1);
   }
   
   .image-button5 {
@@ -114,9 +114,9 @@ body, html {
     .image-button1 {
       margin: 0;
       position: absolute;
-      top: 25%;
-      right: -10%;
-      transform: rotate(90deg) scale(0.6);
+      top: 23.5%;
+      right: -6.8%;
+      transform: rotate(90deg) scale(0.51);
     }
     
     .image-button2 {
@@ -124,22 +124,22 @@ body, html {
       position: absolute;
       top: 32%;
       right: 55%;
-      transform: rotate(90deg) scale(0.6);
+      transform: rotate(90deg) scale(0.5);
     }
     
     .image-button3 {
       margin: 0;
       position: absolute;
-      top: 56%;
-      right: 0%;
-      transform: rotate(90deg) scale(0.6);
+      top: 57%;
+      right: -1%;
+      transform: rotate(90deg) scale(0.5);
     }
     
     .image-button4 {
       margin: 0;
       position: absolute;
-      top: 48%;
-      right: 24%;
+      top: 49%;
+      right: 25%;
       transform: rotate(90deg) scale(0.5);
     }
     
